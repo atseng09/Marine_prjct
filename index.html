@@ -57,7 +57,7 @@
     </div>
 
 
-    <img class="graph" id="graph1" src="static/graphs/Microplastics1.png" class="image" />
+    <img class="graph" id="graph1" src="{{ url_for('static', filename='graphs/Microplastics1.png') }}" class="image" />
     <img class="graph" id="graph2" src="{{ url_for('static', filename='graphs/Microplastics2.png') }}" class="image" />
 
     <div class="bars" id="bar5"></div>
