@@ -4,7 +4,7 @@ body {
 
   @font-face{
     font-family:'ftowe';
-    src: url('/static/fonts/felixtowe.ttf');
+    src: url('../static/fonts/felixtowe.ttf');
     /* font-weight: bold;} */
   }
 
